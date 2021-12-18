@@ -31,7 +31,7 @@ ENV MYSQL_DB_HOST db
 ENV MYSQL_DB_PORT 3306
 ENV MYSQL_DB_UNAME root
 ENV MYSQL_DB_PASSWD root
-
+// checked
 ARG JAR_FILE=target/*.jar
 
 COPY ${JAR_FILE} app.jar
